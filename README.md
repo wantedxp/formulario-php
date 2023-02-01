@@ -13,3 +13,4 @@
 * Inicie seu servidor web e acesse o formulário de login através da URLhttp://localhost/formulario-login/
 ## Uso
 * Entre com seu endereço de e-mail e senha
+* Os dados enseridos serão armazenados na tabela do banco de dados
