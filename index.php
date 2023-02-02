@@ -12,7 +12,7 @@
 <?php 
     if(!isset($_POST['acao'])){
         $email = strip_tags($_POST['email']);
-        $password = $_POST['password'];
+        $password = password_hash($_POST['password'], PASSWORD_DEFAULT); // criptografando a senha
 
         if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) == false){
             echo 'Email invalido';
